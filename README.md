@@ -10,8 +10,11 @@
 **Trustified provides**:
 
 Availability: All the data will be stored on decentralised storage of the Filecoin network.
+
 Forgery Proof: Each certificate and badge will be an NFT on the FVM blockchain.
+
 Ownership: Ensures true ownership of digital badges and certificates.
+
 
 # Built for
 
