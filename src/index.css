@@ -1,13 +1,69 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+/* code { */
+/* font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace; */
+/* } */
+/* #84a8fb */
+#footer {
+  background-color: #f7f7f7;
+  align-items: left;
+  margin-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+  height: 60px;
+  padding: "10px";
+  text-align: center;
+  letter-spacing: 3px;
+}
+
+.footer-position {
+  min-height: calc(100vh - 60px);
+}
+
+.scrollToLink a,
+.header__cta-btn {
+  cursor: pointer;
+}
+
+.blog-card__content {
+  border-style: solid;
+  border-width: 1px;
+  border-color: #efefef;
+  background-color: white;
+  border-top: 0;
+  transition: all 0.4s ease;
+  border-radius: 15px;
+  padding: 10px 50px;
+  text-align: center;
+  margin: 10px;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+a {
+  color: '#ff64a2' !important
 }
